@@ -1,0 +1,114 @@
+body{
+  background: cornflowerblue;
+}
+
+.questionBar{
+  width: 70%;
+
+  margin:auto;
+
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: space-around;
+
+  .active{
+    color:greenyellow;
+  }
+}
+.question_field{
+  width: 60%;
+  background-color: steelblue;
+  border:2px solid white;
+  text-align: center;
+  padding: 20px;
+  border-radius: 10px;
+  font-size: 40px;
+}
+.answer_field{
+  color:midnightblue;
+  font-family: sans-serif;
+  width: 50%;
+  padding:40px;
+border:3px solid wheat;
+  background:lightskyblue;
+font-weight: 500;
+  flex-wrap:wrap;
+  margin-bottom: 30px;
+}
+.answer_field li{
+  width:50%;
+  padding:10px;
+  border:1px solid;
+flex-wrap:wrap;
+  margin:0 10px 20px 30px;
+
+  cursor:pointer;
+
+}
+
+
+.main{
+  width:40%;
+}
+.pyramid{
+  height:35%;
+  width:40%;
+  display:flex;
+  align-items:center;
+  flex-direction: column;
+  justify-content: center;
+  background-color: #3c00a0;
+  color:white;
+}
+.moneyList{
+  list-style: none;
+  width: 20%;
+  padding:20px;
+}
+.moneyListItem{
+
+display:flex;
+  align-items: center;
+  padding:5px;
+  border-radius: 5px;
+}
+.moneyListItem.active{
+  background-color: teal;
+}
+.moneyListItemNumber{
+  font-size: 18px;
+  font-weight: 100;
+  width:30px;
+}
+.moneyListItemAmount{
+  font-size: 20px;
+  font-weight: 300;
+}
+.pyramid{
+  width:40%;
+}
+
+.next-btn{
+  background: #001e4d;
+  color:#ffffff;
+  font-weight: 500;
+  width: 50px;
+  border:0;
+  padding:10px;
+  margin:20px auto 0;
+  border-radius:4px;
+  cursor:pointer;
+  display: none;
+}
+.moneyListItemAmount1{
+  color:goldenrod;
+}
+.moneyListItemAmount:hover,.moneyListItemAmount1:hover,.moneyList .active{
+background-color: gold;
+  color:black;
+  cursor:pointer;
+}
+.moneyListItemNumber{
+  color:black;
+}
